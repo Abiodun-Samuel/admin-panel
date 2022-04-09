@@ -1,6 +1,10 @@
 .home{
-   background-color: red;
-   h1{
-      color: aliceblue;
-   }
+  display: flex;
+  .homeContainer{
+     flex: 6;
+  }
+
+  .toogle_icon{
+     cursor: pointer;
+  }
 }
