@@ -4,13 +4,11 @@ import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
-import MiniDrawer from "./Draw";
 
 const App = () => {
   return (
     <>
-      <MiniDrawer />
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
@@ -27,7 +25,7 @@ const App = () => {
             </Route>
           </Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 };
